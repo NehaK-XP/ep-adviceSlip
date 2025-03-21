@@ -36,11 +36,14 @@ body {
 }
 
 .adviceButton {
+  border-color: black;
+  color: black;
+  border-style: solid;
   padding: 10%;
   width: 20vw;
   text-align: center;
   height: fit-content;
-  font-size: medium;
+  font-size: large;
   border-radius: 15px;
   background-color: rgb(253, 241, 227);
   transition: ease-in-out 0.1s;
@@ -71,23 +74,29 @@ background-color: rgb(249, 228, 203);
 .title {
   color: rgb(20, 108, 103);
   font-weight: 800;
+  font-size: x-large;
 }
 
 .advice {
   line-height: 1.1;
   padding: 10px;
+  font-size: large;
 }
 
 .deleteButton {
+  color: black;
+  border-color: black;
+  border-style: solid;
   background-color: rgb(253, 241, 227);
   border-radius: 8px;
   padding: 4%;
   transition: ease-in-out 0.1s;
   margin-bottom: 20px;
+  font-size: medium
 }
 
 .dateAndTime {
-  font-size: small;
+  font-size: medium;
 }
 
 .timeContainer {
